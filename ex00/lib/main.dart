@@ -31,14 +31,14 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: .center,
           children: [
             const Text('Welcome to my first mobile app :)'),
-						ElevatedButton(
-        			onPressed: () {debugPrint("Button pressed");},
-        			style: ElevatedButton.styleFrom(
-          			backgroundColor: Theme.of(context).colorScheme.primary,
-          			foregroundColor: Theme.of(context).colorScheme.onPrimary,
-        			),
-							child: const Text("Click here"),
-						),
+            ElevatedButton(
+              onPressed: () {debugPrint("Button pressed");},
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Theme.of(context).colorScheme.primary,
+                foregroundColor: Theme.of(context).colorScheme.onPrimary,
+              ),
+              child: const Text("Click here"),
+            ),
           ],
         ),
       ),
